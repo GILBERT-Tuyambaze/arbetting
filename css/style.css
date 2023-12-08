@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 1;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+:root {
+    --bg:rgb(43, 43, 41);
+    --text:#f7eaea;
+    --blu:rgba(0, 0, 0, 0.329);
+    --main:rgb(241, 241, 5);
+    --wht:#ffffff3b;
+    --hover:aqua;
+    --blu-wht:#ffffff81;
+}
+ body{
+    background: var(--bg);
+    color:var(--text);
+
+   
+ }
+ ::placeholder{
+   text-align: center;
+   letter-spacing: 0.042rem;
+ }
+ header{
+    text-align: center;
+    font-size: 5vw;
+    background: var(--blu);
+    letter-spacing: 8px;
+    font-weight: 800;
+    box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.555);
+ }
+ section{
+    position: absolute;
+    margin: 0.8rem ;
+    height: 76vh;
+    width: 96%;
+    background-color: var(--blu);
+    padding: 1rem;
+    border:1px solid var(--wht) ;
+ }
+ .div1
+       {
+        position: absolute !important;
+        width: 45%;
+        height: 95% !important;
+
+       }
+       form{
+        font-size: 1.2rem;
+
+       }
+       input{
+        padding: 0.2rem;
+        font-size: 1.2rem;
+        width: 70%;
+        outline: none;
+        border-color:var(--wht) ;
+        border-radius: 4px;
+        margin: 1rem;
+       }
+       button{
+        position: absolute;
+        right: 3rem;
+        width: 30%;
+        height: 3rem;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        font-weight: 900;
+
+       }
+       .button{
+         left: 1rem;
+         margin-top: 1.3rem;
+         width: 50%;
+       }
+       .submit{
+        margin-top: 4rem;
+        width: 50%;
+        height: 3rem;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        font-weight: 900;
+
+       }
+       .submit:hover,button:hover{
+        color:var(--bg);
+        background-color:var(--hover);
+        border: 2px solid #fff;
+       }
+ .div2
+       {
+        position: absolute !important;
+        width: 23%;
+        height: 95% !important;
+        right: 25rem;
+        
+       }  
+       .bet1,.bet2 {
+        background-color:var(--blu-wht);
+        width: 95%;
+        border-radius: 5px;
+        text-align: right;
+        padding: 0.4rem;
+        margin-top: 1rem;
+        
+       }
+       .bet1 span,.bet2 span{
+        background-color: #ffffff00;
+        letter-spacing: 4px;
+       }
+ .div3
+       {
+        position: absolute !important;
+        right: 1rem;
+        width: 28%;
+        height: 95% !important;
+        
+
+       }   
+       .pay1{
+        margin-top: 0.95rem;
+        
+       }
+       .pay2{
+        margin-top: -0.2rem;
+       }
+       .pay1,.pay2{
+        background-color:var(--blu-wht);
+        width: 95%;
+        border-radius: 5px;
+        text-align: right;
+        padding: 0.4rem;
+        font-weight: 800;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif; 
+        
+       }  
+       .pay1 span,.pay2 span{
+         background-color: #ffffff00;
+         letter-spacing: 4px;
+        }
+       .sub{
+        margin-top: 4rem;
+        letter-spacing: 0px;
+       }
+       .sub h3{
+        background-color:var(--blu-wht);
+        border-radius: 5px;
+       }
+         h3{ 
+            font-weight: 2rem;
+            letter-spacing: 0.2rem;
+            padding: 0.5rem;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Candara';
+         }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my deal</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+   <header> the arbitrage calculator </header>
+    <section >
+       <div class="div1">
+        <h3 >enter odds & stake</h3>
+
+        <label for="bet 1"> bet 1</label>
+        <input type="number" name="bet_1" id="bet_1" class="bet_1" placeholder=" enter multiple of odd" required><br>
+        <label for="bet 2"> bet 2</label>
+        <input type="number" id="bet_2" name="bet_2" class="bet_2" placeholder=" enter multiple of another odd" required><br>
+        <label for="stake">stake</label>
+        <input type="number" class="stake" name="stake" id="stake"placeholder=" enter total amount you are willing to stake" required><br>
+        <button onclick="submit()" class="button" id="submit" value="CALCULATE">calculator</button><br>
+        <button type="button" onclick="rest()"> RESET</button>
+       </div>
+       <div class="div2">
+        <h3 >stake</h3>
+        <h2 id="bet1" class="bet1"><span class="bet1" id="bett1">000</span> frw</label><br>
+        <h2 id="bet2" class="bet2"><span class="bet2" id="bett2">000</span> frw</label>
+       </div>
+
+       <div class="div3">
+        <h3 >payout</h3>
+        <h3  id="pay1" class="pay1"><span class="pay1" id="payy1">000</span> frw</h3><br>
+        <h3  id="pay2" class="pay2"><span class="pay2" id="payy2">000</span> frw</h3><br>
+        <div class="sub">
+        <h3  id="t_pay" class="t_pay">total payout: <span class="span_t_pay" id="span_t_pay">000</span>frw</h3><br>
+        <h3  id="t_profit" class="t_profit">total profit: <span class="span_t_profit" id="span_t_profit">000</span>frw</h3><br>
+        <h3  id="rio" class="rio">RIO: <span class="rio1" id="rio1">000</span>%</h3><br>
+        </div>
+       </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
